@@ -1,1 +1,29 @@
 @import '~bootstrap/scss/bootstrap';
+
+h1 {
+    text-align: center;
+    padding: 3rem;
+
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+
+    img {
+        width: 150px;
+    }
+}
+
+.col {
+    display: grid;
+    align-items: stretch;
+}
+
+.card {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border: none;
+    padding: 1rem;
+    text-align: center;
+}

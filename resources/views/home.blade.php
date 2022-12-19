@@ -3,6 +3,7 @@
 @section('contents')
 <main>
     <div class="container">
+        <h1>I migliori film tornano al cinema</h1>
         <div class="row row-cols-3 g-3">
             @foreach($movies as $movie)
             <div class="col">
